@@ -12,7 +12,7 @@ using System.ServiceModel;
 /// "What methods does our SOAP API expose?"
 /// </summary>
 /// 
-[ServiceContract]
+[ServiceContract(Namespace = "http://library.soapapi.org/")]
 public interface ILibrarySoapService
 {
     /// <summary>
